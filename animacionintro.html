@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Text Opening Sequence with CSS Animations</title>
+         <link rel="stylesheet" href="css/stile.css" type="text/css"/>
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body> <!-- /rashgold -->
+		<div class="container">	
+			
+			<div class="os-phrases" id="os-phrases"><!-- /rashgold -->
+				<h2>trabajando día a día</h2>
+				<h2>mejorandonos nosotros mismos</h2>
+				<h2>para brindarles nuestros servicios</h2>
+				<!-- /rashgold -->
+				<h2>OSSEG</h2>
+				<h2>obra social del seguro</h2>
+			</div><!-- /rashgold -->
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><!-- /rashgold -->
+		<script src="js/jquery.lettering.js"></script>
+		<script>
+	/*rashgold*/
+		$(document).ready(function() {
+				$("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering(); 
+			})
+    
+    
+		</script>
+	</body>
+</html>
